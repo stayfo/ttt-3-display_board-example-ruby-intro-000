@@ -3,6 +3,10 @@ def display_board
   cell = "   "
   pipes = "|"
   lines = "-----------"
-  puts "#{cell} #{pipes}"
+  puts "#{cell} #{pipes} #{cell} #{pipes} #{cell}"
+  puts "#{lines}"
+  puts "#{cell} #{pipes} #{cell} #{pipes} #{cell}"
+  puts "#{lines}"
+  puts "#{cell} #{pipes} #{cell} #{pipes} #{cell}"
 end
   
