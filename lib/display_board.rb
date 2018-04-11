@@ -1,7 +1,7 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
   cell = "  "
-  pipes = "|"
+  pipes = "|   |"
   lines = "-----------"
   puts "#{cell} #{pipes} #{cell} #{pipes} #{cell}"
   puts "#{lines}"
